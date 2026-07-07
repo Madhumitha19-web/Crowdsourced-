@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CrowdSourced Community</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>CrowdSourced Community</h1>
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#report">Report</a>
+<a href="#contact">Contact</a>
+<a href="#login">Login</a>
+</nav>
+</header>
+
+<section id="home">
+<h2>Welcome</h2>
+<p>Help improve your community by reporting public issues.</p>
+<button onclick="showMessage()">Get Started</button>
+</section>
+
+<section id="about">
+<h2>About</h2>
+<p>This platform allows citizens to report road damage, water leakage, streetlight failures, and other civic issues.</p>
+</section>
+
+<section id="report">
+<h2>Report an Issue</h2>
+<form>
+<input type="text" placeholder="Your Name"><br><br>
+<input type="text" placeholder="Location"><br><br>
+<textarea placeholder="Describe the issue"></textarea><br><br>
+<button type="submit">Submit</button>
+</form>
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+<p>Email: support@crowdsource.com</p>
+<p>Phone: +91 9876543210</p>
+</section>
+
+<section id="login">
+<h2>Login</h2>
+<input type="text" placeholder="Username"><br><br>
+<input type="password" placeholder="Password"><br><br>
+<button>Login</button>
+</section>
+
+<footer>
+<p>&copy; 2026 CrowdSourced Community</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
